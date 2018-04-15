@@ -74,6 +74,12 @@ a:focus, a:hover {
   color: #637381;
 }
 
+#mainNav a:hover {
+  transition: 0.5s;
+  outline: none;
+  background-color: rgba(255, 255, 255, 1);
+}
+
 #mainNav .navbar-nav .nav-item {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
@@ -124,6 +130,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
+  background:url(../img/intro-bg.jpg) no-repeat top center scroll;
   background-color: #caced1;
   -webkit-background-size: cover;
   -moz-background-size: cover;
